@@ -1,0 +1,60 @@
+<ion-app>
+  <ion-menu menuId="main-menu" content-id="main">
+  <ion-header>
+    <ion-toolbar align="center" class="pic-backg">
+      <img src="assets/images/logowheyqueen.png" width="200" height="180">
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ioncontent-backg">
+  <ion-list>
+
+    <ion-menu-toggle>
+    <ion-item routerLink="/home" class="ionitemhome-backg" lines="none">
+      <ion-icon name="home" slot="start"></ion-icon>
+      <ion-label class="ionlabel-txt">HOME</ion-label>
+    </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>
+    <ion-item routerLink="/about" class="ionitem-backg">
+      <ion-icon name="information-circle" slot="start"></ion-icon>
+      <ion-label class="ionlabel-txt">ABOUT</ion-label>
+    </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>
+    <ion-item routerLink="/profile" class="ionitem-backg">
+      <ion-icon name="person-circle" slot="start"></ion-icon>
+      <ion-label class="ionlabel-txt">PROFILE</ion-label>
+    </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>
+      <ion-item routerLink="/products" class="ionitem-backg">
+        <ion-icon name="cube" slot="start"></ion-icon>
+        <ion-label class="ionlabel-txt">PRODUCTS</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>
+      <ion-item routerLink="/articles" class="ionitem-backg">
+        <ion-icon name="reader" slot="start"></ion-icon>
+        <ion-label class="ionlabel-txt">ARTICLES</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>
+      <ion-item routerLink="/cart" class="ionitem-backg">
+        <ion-icon name="cart" slot="start"></ion-icon>
+        <ion-label class="ionlabel-txt">CART</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>
+      <ion-item routerLink="/contactus" class="ionitem-backg">
+        <ion-icon name="call" slot="start"></ion-icon>
+        <ion-label class="ionlabel-txt">CONTACT US</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+  </ion-list>
+  </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+  
+  </ion-app>
